@@ -5,7 +5,7 @@
 .header__top {
     background-color: #eef1f3;
     padding: 25px 0;
-    margin-bottom:16px;
+    margin-bottom: 16px;
     &-logo {
         margin-left: 7px;
     }
@@ -67,16 +67,16 @@
     }
 }
 .header__bottom {
-    
     &-inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 17px;
     }
     &-menu {
         display: flex;
         justify-content: space-between;
-        
+
         a {
             font-weight: 500;
             font-size: 15px;
@@ -89,7 +89,7 @@
         }
     }
     &-search {
-         position: relative;
+        position: relative;
     }
     &-form {
         color: #898f96;
@@ -100,7 +100,6 @@
         max-width: 360px;
         border-radius: 50px;
         border: 1px solid #d9dfe5;
-       
     }
     &-btn {
         position: absolute;
@@ -109,5 +108,153 @@
         border: none;
         padding: 0;
         background: none;
+        cursor: pointer;
+    }
+}
+.banner__inner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    // max-height: 100vh;
+    // height: 100vh;
+}
+
+.banner__wrapper {
+    text-align: center;
+    padding-top: 170px;
+    position: relative;
+    &-title {
+        color: #f3f3f8;
+        font-size: 60px;
+        line-height: 70px;
+    }
+    &-text {
+        color: #f3f3f8;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 700;
+    }
+    &-descr {
+        color: #f3f3f8;
+        font-size: 20px;
+        line-height: 70px;
+        font-weight: 500;
+        padding-bottom: 70px;
+    }
+    &-btn a {
+        font-size: 16px;
+        line-height: 60px;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 0 36px;
+        border-radius: 50px;
+        margin-left: 30px;
+        transition: all 0.3s;
+    }
+    &-btn a:hover {
+        color: $blue;
+        background-color: #fff;
+    }
+
+    &-btn {
+        padding-bottom: 230px;
+    }
+}
+.banner__bottom {
+    &-items {
+        max-width: 1140px;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 42px;
+        border-radius: 6px;
+        margin-bottom: 100px;
+        position: absolute;
+        top: -70px;
+        z-index: 10;
+    }
+    &-items::before {
+        content: "";
+        max-width: 1080px;
+        width: 100%;
+        background-color: #fff;
+        opacity: 0.5;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 42px;
+        border-radius: 6px;
+        top: -15px;
+        position: absolute;
+        z-index: 1;
+        left: 15px;
+    }
+    &-items::after {
+        content: "";
+        max-width: 1064px;
+        width: 100%;
+        background-color: #fff;
+        opacity: 0.5;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 42px;
+        border-radius: 6px;
+        top: -30px;
+        position: absolute;
+        z-index: 1;
+        left: 23px;
+    }
+
+    &-search {
+        border: none;
+        font-size: 16px;
+        line-height: 42px;
+        max-width: 580px;
+        width: 580px;
+        padding: 5px 27px;
+    }
+    &-dropdown {
+        border: none;
+        font-size: 16px;
+        line-height: 42px;
+        border-left: 1px solid #dcdcdc;
+        padding: 5px 75px 5px 18px;
+    position: relative;
+    }
+        &-dropdown::after{
+            content: '';
+            height: 8px;
+            width:13px ;
+            background-image: url(../images/icons/chevron-down.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            bottom: 22px;
+            right: 20px;
+        }
+    
+    &-inner {
+        position: relative;
+    }
+    &-form {
+        display: flex;
+        border: 1px solid #dcdcdc;
+        border-radius: 5px;
+        // max-width: 800px;
+        // width: 100%;
+        // justify-content: space-between;
+    }
+    &-btn {
+        font-size: 16px;
+        line-height: 42px;
+        border: none;
+        color: #fff;
+        background-color: $blue;
+        padding: 0 68px;
+        border-radius: 5px;
+        z-index: 2;
     }
 }
