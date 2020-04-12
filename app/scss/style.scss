@@ -578,7 +578,6 @@
                 top: 8px;
             }
             &__effect {
-                
                 padding: 8px 20px;
                 background-color: #fff;
                 position: absolute;
@@ -1684,6 +1683,7 @@
         right: 0;
     }
     &__social {
+        margin-bottom: 90px;
         li {
             display: inline-block;
             & + li {
@@ -1691,9 +1691,20 @@
             }
         }
     }
+    &__copy {
+        text-align: center;
+        background-color: #192027;
+        padding: 25px;
+        a {
+            font-size: 15px;
+            line-height: 27px;
+            color: #fff;
+        }
+    }
 }
 .footer__form-wpapper {
     position: relative;
     padding-bottom: 45px;
 }
+
 //footer end
