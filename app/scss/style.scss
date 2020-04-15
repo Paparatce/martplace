@@ -673,14 +673,13 @@
             }
         }
 
-        .product__item-img-btn-right, .product__item-img-btn-left{
-           width: 100%;
-            min-width: 130px;  
+        .product__item-img-btn-right,
+        .product__item-img-btn-left {
+            width: 100%;
+            min-width: 130px;
             transition: all 0.4s;
         }
 
-
-       
         .product__item-img-btn-right a {
             position: absolute;
             font-size: 15px;
@@ -1244,26 +1243,27 @@
     background-position: top center;
     background-repeat: no-repeat;
     margin-top: 90px;
-    
+    position: relative;
+
+
     &__items {
         display: flex;
-        justify-content: space-between;
-        
+        justify-content: center;
     }
     &__item {
-        
         text-align: center;
         max-width: 592px;
         width: 100%;
-        padding: 200px 0px 5px;
+        padding: 100px 0px 5px;
         margin: 0px 100px;
-        
+        &-img{
+           padding-bottom: 40px;
+        }
         &-title {
             font-size: 30px;
             line-height: 45px;
             color: #fff;
             padding-bottom: 10px;
-            position: relative;
         }
         &-text {
             font-size: 16px;
@@ -1285,34 +1285,7 @@
                 color: #7347c1;
             }
         }
-        &_1 {
-            &::before {
-                content: "";
-                background-image: url(../images/icons/shop-icon1.png);
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                width: 120px;
-                height: 102px;
-                position: absolute;
-                top: -130px;
-                left: 100px;
-            }
-        }
-        &_2 {
-            &::before {
-                content: "";
-                background-image: url(../images/icons/shop-icon2.png);
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                width: 100px;
-                height: 100px;
-                position: absolute;
-                top: -130px;
-                left: 185px;
-            }
-        }
+     
     }
 }
 
@@ -1691,7 +1664,7 @@
         border-radius: 30px;
         outline: none;
         padding: 15px 30px;
-        right: 0;
+        right: -2px;
     }
     &__social {
         margin-bottom: 90px;
