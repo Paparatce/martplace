@@ -73,17 +73,27 @@ $(function () {
     $('.products__filter-grid-col').on('click', function () {
         $('.product__list-item').addClass('list');
         $('.product__grid-item').addClass('grid_list');
+        $('.slider__bottom-inner').addClass('grid_list');
         $('.products__filter-grid-col').addClass('active');
         $('.products__filter-grid-row').removeClass('active');
     });
     $('.products__filter-grid-row').on('click', function () {
         $('.product__list-item').removeClass('list');
         $('.product__grid-item').removeClass('grid_list');
+        $('.slider__bottom-inner').removeClass('grid_list');
         $('.products__filter-grid-row').addClass('active');
         $('.products__filter-grid-col').removeClass('active');
     });
 
-
+    $('.blog__aside-tabs .tab').on('click', function(event) {
+        var id = $(this).attr('data-id');
+            $('.wrapper').find('.tab-item').removeClass('active-tab').hide();
+            $('.wrapper .tabs').find('.tab').removeClass('active');
+            $(this).addClass('active');
+            $('#'+id).addClass('active-tab').fadeIn();
+            return false;
+        });
+        
 
 
 
