@@ -1,0 +1,189 @@
+@media (max-width: 1180px) {
+    .plan .ico-question-circle::after {
+        display: none;
+    }
+    .plan__items {
+        flex-wrap: wrap;
+    }
+    .plan .plan__item-3 {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 900px) {
+    .header__bottom-menu {
+        display: none;
+    }
+    .footer__items {
+        flex-wrap: wrap;
+    }
+    .footer__item-box,
+    .footer__item {
+        padding: 45px 20px 0px;
+    }
+}
+@media (max-width: 800px) {
+    .plan__items {
+        justify-content: center;
+    }
+    .plan .plan__item-2 {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 720px) {
+    .header__top-btn {
+        display: none;
+    }
+}
+@media (max-width: 560px) {
+    .header__top-icons {
+        display: none;
+    }
+    .header__top-avatar span {
+        display: none;
+    }
+    .header__bottom-inner {
+        padding-bottom: 15px;
+    }
+    .header__top-inner {
+        flex-wrap: wrap;
+    }
+    .header__top-username {
+        padding: 7px 0px;
+    }
+    .header__bottom-form {
+        width: 100%;
+    }
+    .search__products {
+        display: none;
+    }
+    .terms {
+        padding-top: 12px;
+        padding-bottom: 50px;
+    }
+    .footer__list-title {
+        padding-bottom: 0;
+        padding-top: 15px;
+    }
+    .footer__item-box,
+    .footer__item {
+        padding: 20px 20px 0px;
+    }
+    .register {
+        background-color: #eff1f5;
+        padding: 15px 0px 49px;
+    }
+    .register__title {
+        font-size: 24px;
+        color: #000;
+        padding: 30px 0px 12px;
+    }
+    .register__text {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 0px 20px 15px;
+    }
+    .register__form-title {
+        font-size: 14px;
+    }
+    .register__form input {
+        margin-top: 6px;
+        margin-bottom: 17px;
+        padding: 7px 20px 7px;
+    }
+    .register__form button {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 9px 20px;
+    }
+    .register__form-link {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+    .register__form {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .recover__password-text {
+        font-size: 14px;
+        padding: 16px 21px 22px;
+    }
+    .login__form {
+        padding-top: 13px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .login__form-title {
+        font-size: 15px;
+    }
+    .login__form button {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 9px 20px;
+    }
+    .plan {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    .plan__item-title {
+        font-size: 20px;
+        padding: 15px 0px;
+    }
+    .plan__item-price {
+        font-size: 30px;     
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+    .plan__item-list li {
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+    .plan__item-btn{
+      padding-bottom: 15px;
+      padding-top: 10px;
+        a {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+        background-color: #ff6a6c;
+        padding: 16px 15px;
+        border-radius: 4px;
+    }
+    }
+    .plan .plan__item-2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .plan__title {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+    .plan__text {
+        font-size: 14px;
+        line-height: 23px;
+        padding-bottom: 30px;
+    }
+    .login__title {
+        font-size: 23px;
+        padding: 18px 0px 9px;
+    }
+    .login__text {
+        font-size: 14px;
+        padding-bottom: 15px;      
+    }
+    .login__form-title{
+        font-size: 14px;
+    }
+    .login__form .login__form-input {
+        margin-top: 12px;
+        margin-bottom: 17px;
+        padding: 7px 20px 7px;
+    }
+    .login__form .login__form-link {
+        padding-bottom: 50px;
+        font-size: 14px;
+    }
+    .login__link-box{
+        justify-content: space-around;
+    }
+}
